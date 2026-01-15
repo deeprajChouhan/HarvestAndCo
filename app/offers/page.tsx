@@ -25,17 +25,8 @@ export default function OffersPage() {
           <OfferCard key={offer.title} offer={offer} />
         ))}
       </div>
-      <div className="mt-10 rounded-2xl bg-harvest-yellow/20 p-6">
-        <h2 className="font-heading text-xl font-semibold text-harvest-charcoal">Do / Don’t tone check</h2>
-        <ul className="mt-3 space-y-2 text-sm text-harvest-charcoal/70">
-          <li>DO: keep value clear and explain savings in plain English.</li>
-          <li>DO: link deals to seasonal and local sourcing where possible.</li>
-          <li>DON’T: use luxury terms like “exclusive” or “premium”.</li>
-          <li>DON’T: use guilt or shame messaging.</li>
-        </ul>
-        <div className="mt-4">
-          <CTAButton href="/menu" label="See full menu" />
-        </div>
+      <div className="mt-10">
+        <CTAButton href="/menu" label="See full menu" />
       </div>
     </div>
   );

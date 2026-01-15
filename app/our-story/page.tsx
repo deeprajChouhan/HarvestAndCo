@@ -20,17 +20,8 @@ export default function OurStoryPage() {
         Built in the West Midlands, Harvest &amp; Co. keeps ethical choices affordable and straightforward.
       </p>
       <StorySection />
-      <div className="mt-8 rounded-2xl bg-harvest-cream p-6">
-        <h2 className="font-heading text-xl font-semibold text-harvest-charcoal">Do / Don’t tone check</h2>
-        <ul className="mt-3 space-y-2 text-sm text-harvest-charcoal/70">
-          <li>DO: explain value and show proof from our suppliers.</li>
-          <li>DO: celebrate West Midlands pride and community roots.</li>
-          <li>DON’T: use luxury language like “exclusive” or “premium”.</li>
-          <li>DON’T: use guilt or shame messaging.</li>
-        </ul>
-        <div className="mt-4">
-          <CTAButton href="/suppliers" label="Meet the suppliers" />
-        </div>
+      <div className="mt-8">
+        <CTAButton href="/suppliers" label="Meet the suppliers" />
       </div>
     </div>
   );
