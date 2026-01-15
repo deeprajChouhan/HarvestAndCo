@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-harvest-cream text-harvest-charcoal font-body;
+}
+
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-harvest-yellow focus:text-harvest-charcoal focus:px-4 focus:py-2 focus:rounded-md focus:shadow-lg;
+}
+
+.prose-readable {
+  @apply text-base md:text-lg leading-relaxed;
+}
+
+:focus-visible {
+  outline: 3px solid #F5C84C;
+  outline-offset: 2px;
+}
